@@ -12,5 +12,5 @@ function showRepositories() {
     repoList += '<li>' + this.responseText[i]['name'] + '</li>';
   }
   repoList += '</ul>';
-  document.getElementById('repositories').innerHTML = reposList;
+  document.getElementById('repositories').innerHTML = repoList;
 }
