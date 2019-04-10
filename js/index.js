@@ -34,5 +34,5 @@ function showCommits() {
      '</li>'
   )
   .join('')}</ul>`;
-  document.getElementById('commits').innterHTML = commitsList;
+  document.getElementById('commits').innerHTML = commitsList;
 }
